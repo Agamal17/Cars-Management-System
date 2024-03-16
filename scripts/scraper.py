@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 def main():
     search_keyword = sys.argv[1]
-    download_path = r"/images\\"  # Set the path where you want to save the image
+    download_path = r"../images\\"  # Set the path where you want to save the image
 
     url = f"https://www.gettyimages.com/photos/{search_keyword}"
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"}
